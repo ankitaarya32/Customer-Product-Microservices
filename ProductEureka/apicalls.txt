@@ -1,0 +1,38 @@
+http://localhost:8081/api/v1/customers
+{
+    "firstName" : "Ankit",
+    "lastName" :"Raj",
+    "email" :"ank@gmail.com"
+}
+------------------------------------------------------
+{
+    "firstName" : "Ankita",
+    "lastName" :"Raj",
+    "email" :"ank@gmail.com",
+    "isFraud":"true"
+}
+------------------------------------------------------------
+{
+    "firstName" : "Ankita1",
+    "lastName" :"Raj",
+    "email" :"ank@gmail.com",
+    "isfraud":"true"
+}
+----------------------------------------------------------------
+http://localhost:8082/api/v1/products
+
+{
+	"customerId" : "1",
+        "productName" : "Test",
+	"quantity" : "10",
+	"price" : "250"
+        
+    }
+--------------------------------------------------------------
+{
+	"customerId" : "3",
+        "productName" : "Test",
+	"quantity" : "10",
+	"price" : "250"
+        
+    }
